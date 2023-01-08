@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import bgMusic from "./../assets/bg-music.mp3";
 import { Play, Pause } from "react-feather";
 import Firebase from "./Firebase";
-import { ref, set, get, child, onValue } from "firebase/database";
+import { ref, set, onValue } from "firebase/database";
 import Home from "./Home";
 import Name from "./Name";
 import moment from "moment";
@@ -36,6 +36,7 @@ const Main = () => {
       });
       setAllMessage(_.orderBy(record, ["time"], ["desc"]));
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
