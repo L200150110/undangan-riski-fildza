@@ -23,6 +23,7 @@ const Name = (props) => {
       <div className="message_container">
         <Input
           placeholder="Nama"
+          value={state.message.name}
           onChange={(e) =>
             setState({
               ...state,
@@ -33,6 +34,7 @@ const Name = (props) => {
         <textarea
           className="form-control"
           placeholder="Pesan"
+          value={state.message.message}
           onChange={(e) =>
             setState({
               ...state,
