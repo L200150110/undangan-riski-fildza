@@ -96,7 +96,7 @@ const Main = () => {
   return (
     <div className="container">
       <div className="audio_play_pause" onClick={() => handlePlay()}>
-        {play ? <Pause stroke="white" /> : <Play stroke="white" />}
+        {play ? <Pause stroke="#212529" /> : <Play stroke="#212529" />}
       </div>
       {page === "home" ? (
         <Home handlePlay={() => setPlay(true)} setPage={setPage} />
