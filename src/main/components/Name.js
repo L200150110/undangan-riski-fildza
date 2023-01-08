@@ -13,7 +13,7 @@ const Name = (props) => {
             <div className="db_message_item_container" key={i}>
               <div className="db_message_item_header">
                 <div>{item.name}</div>
-                <div>{moment(item.time).format("mm:ss DD-MM-YYYY")}</div>
+                <div>{moment(item.time).format("HH:mm DD-MM-YYYY")}</div>
               </div>
               <div className="db_message_item_body">{item.message}</div>
             </div>
