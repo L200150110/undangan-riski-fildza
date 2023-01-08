@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/undangan-riski-fildza/static/css/main.dc218f24.css",
-    "main.js": "/undangan-riski-fildza/static/js/main.6674c86f.js",
+    "main.css": "/undangan-riski-fildza/static/css/main.8f275f84.css",
+    "main.js": "/undangan-riski-fildza/static/js/main.a6fd4408.js",
     "static/js/787.3de1e6c8.chunk.js": "/undangan-riski-fildza/static/js/787.3de1e6c8.chunk.js",
     "static/media/bg-music.mp3": "/undangan-riski-fildza/static/media/bg-music.d11e472616d145cb34af.mp3",
     "index.html": "/undangan-riski-fildza/index.html",
-    "main.dc218f24.css.map": "/undangan-riski-fildza/static/css/main.dc218f24.css.map",
-    "main.6674c86f.js.map": "/undangan-riski-fildza/static/js/main.6674c86f.js.map",
+    "main.8f275f84.css.map": "/undangan-riski-fildza/static/css/main.8f275f84.css.map",
+    "main.a6fd4408.js.map": "/undangan-riski-fildza/static/js/main.a6fd4408.js.map",
     "787.3de1e6c8.chunk.js.map": "/undangan-riski-fildza/static/js/787.3de1e6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc218f24.css",
-    "static/js/main.6674c86f.js"
+    "static/css/main.8f275f84.css",
+    "static/js/main.a6fd4408.js"
   ]
 }
