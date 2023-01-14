@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/undangan-riski-fildza/static/css/main.61f72dca.css",
-    "main.js": "/undangan-riski-fildza/static/js/main.98b7a76d.js",
+    "main.css": "/undangan-riski-fildza/static/css/main.e62f878f.css",
+    "main.js": "/undangan-riski-fildza/static/js/main.3c9e2849.js",
     "static/js/787.3de1e6c8.chunk.js": "/undangan-riski-fildza/static/js/787.3de1e6c8.chunk.js",
     "static/media/bg-music.mp3": "/undangan-riski-fildza/static/media/bg-music.d11e472616d145cb34af.mp3",
     "static/media/CassandraPersonalUseRegular-3BjG.ttf": "/undangan-riski-fildza/static/media/CassandraPersonalUseRegular-3BjG.5e5380c1b2beae0d8a1a.ttf",
     "static/media/Rottasicity.ttf": "/undangan-riski-fildza/static/media/Rottasicity.d3eb2897c0de67cbcfd1.ttf",
     "index.html": "/undangan-riski-fildza/index.html",
-    "main.61f72dca.css.map": "/undangan-riski-fildza/static/css/main.61f72dca.css.map",
-    "main.98b7a76d.js.map": "/undangan-riski-fildza/static/js/main.98b7a76d.js.map",
+    "main.e62f878f.css.map": "/undangan-riski-fildza/static/css/main.e62f878f.css.map",
+    "main.3c9e2849.js.map": "/undangan-riski-fildza/static/js/main.3c9e2849.js.map",
     "787.3de1e6c8.chunk.js.map": "/undangan-riski-fildza/static/js/787.3de1e6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61f72dca.css",
-    "static/js/main.98b7a76d.js"
+    "static/css/main.e62f878f.css",
+    "static/js/main.3c9e2849.js"
   ]
 }
