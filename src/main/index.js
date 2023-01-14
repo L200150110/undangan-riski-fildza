@@ -1,3 +1,3 @@
-import Main from "./components/Main";
+import Undangan from "./components";
 
-export default Main;
+export default Undangan;
