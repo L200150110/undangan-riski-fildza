@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "reactstrap";
-import moment from "moment";
+// import moment from "moment";
 
 const Home = (props) => {
-  const countDown = useCountdown(new Date("2023-05-06 11:00:00"));
+  const countDown = useCountdown(new Date("2023-05-07 11:00:00"));
 
   useEffect(() => {
     console.log(countDown, "masuk count");
@@ -12,16 +12,15 @@ const Home = (props) => {
   return (
     <>
       {/* <div>Undangan</div> */}
+
+      <div className="date_container">07 Mei 2023</div>
       <div className="home_typografi">
-        <div className="typografi_cpp">Riski</div>
-        <div className="typografi_and">&</div>
-        <div className="typografi_cpw">Fildza</div>
+        <div className="typografi_cpp">Riski </div>
+        <div className="typografi_cpw"> Fildza </div>
       </div>
 
-      <div className="date_container">06 Mei 2023</div>
-
       <div className="countdown_container">
-        <div className="countdown_header">Hari H</div>
+        <div className="countdown_header">Countdown</div>
         <div className="countdown_body">
           <div className="countdown_item">{countDown[0]}</div>
           <div className="countdown_item">{countDown[1]}</div>
@@ -37,7 +36,7 @@ const Home = (props) => {
       </div>
 
       <Button
-        color="dark"
+        color="light"
         onClick={() => {
           props.handlePlay();
           props.setPage("main");
